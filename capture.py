@@ -2,7 +2,7 @@
 import numpy as np
 import cv2
 
-if _name_=='_main_':
+if __name__=='__main__':
 	cap=cv2.VideoCapture(0)
 	ret,frame=cap.read()
 	cv2.imwrite('rpi_test.jpg',frame)
